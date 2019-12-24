@@ -286,14 +286,14 @@ public class ChallengesGUITest {
         }
         // Next page
         assertTrue(argument.getAllValues().get(18) == 18);
-        assertEquals(Material.OAK_SIGN, argument2.getAllValues().get(18).getType());
+        assertEquals(Material.SIGN, argument2.getAllValues().get(18).getType());
         // Level challenges
         for (int i = 19; i < 37; i++) {
             assertEquals("Failed on " + i, Material.EMERALD, values.get(i).getType());
         }
         // Next page
         assertTrue(argument.getAllValues().get(37) == 45);
-        assertEquals(Material.OAK_SIGN, argument2.getAllValues().get(37).getType());
+        assertEquals(Material.SIGN, argument2.getAllValues().get(37).getType());
     }
     /**
      * Test method for {@link world.bentobox.challenges.panel.user.ChallengesGUI#build()}.
@@ -319,7 +319,7 @@ public class ChallengesGUITest {
         }
         // Next page
         assertTrue(argument.getAllValues().get(28) == 36);
-        assertEquals(Material.OAK_SIGN, argument2.getAllValues().get(28).getType());
+        assertEquals(Material.SIGN, argument2.getAllValues().get(28).getType());
         // Level
         assertTrue(argument.getAllValues().get(29) == 45);
         assertEquals(Material.BIRCH_BOAT, argument2.getAllValues().get(29).getType());
@@ -346,7 +346,7 @@ public class ChallengesGUITest {
         }
         // Next page
         assertTrue(argument.getAllValues().get(18) == 18);
-        assertEquals(Material.OAK_SIGN, argument2.getAllValues().get(18).getType());
+        assertEquals(Material.SIGN, argument2.getAllValues().get(18).getType());
         // Level challenges
         for (int i = 19; i < 29; i++) {
             assertEquals("Failed on " + i, Material.EMERALD, values.get(i).getType());
@@ -386,7 +386,7 @@ public class ChallengesGUITest {
 
         // Level
         assertTrue(argument.getAllValues().get(29) == 45);
-        assertEquals(Material.OAK_SIGN, argument2.getAllValues().get(29).getType());
+        assertEquals(Material.SIGN, argument2.getAllValues().get(29).getType());
     }
 
 }
